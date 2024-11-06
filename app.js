@@ -180,13 +180,21 @@
 //17-masala
 // let son = +prompt("son kiriting");
 // function kabisa(a) {
-//   if ((a % 4 === 0 && a % 100 !== 0) || a % 400 === 0) {
-//     console.log(`${a} kabisa oy`);
-//   } else {
-//     console.log(`${a} kabisa oy emas`);
-//   }
+//     if (a % 4 == 0 && a % 100 != 0) {
+//       return 'kabisa oyi'
+//     } else {
+//         return 'kabisa oyi emas'
+//     }
 // }
-// kabisa(son);
+// console.log(kabisa(son));
+
+
+//18-masala
+// function toString(a) {
+//     let str = String(a)
+//     for(const iterator of str)
+// }
+
 
 //20-masala
 // let son = +prompt("son kiriting");
@@ -248,4 +256,19 @@
 //     }
 // }
 // let res=febinus(err,son)
+// console.log(res);
+
+//3-misol
+// let son = prompt('son kiriting')
+
+// function juft(a) {
+//     let sum=''
+//     for (let i = 1; i <=a.length; i++) {
+//          if () {
+
+//          }
+//     }
+//     return sum
+// }
+// let res = juft(son)
 // console.log(res);
