@@ -199,11 +199,18 @@
 //20-masala
 // let son = +prompt("son kiriting");
 // function tub(a) {
-//     if (a / 1 == a && a / a == 1) {
-//       console.log(`${a} tub son`);
+//     let sum=0
+//     for (let i = 1; i <=a; i++) {
+//         if (a%i==0) {
+//             sum++
+//         }        
+//     }
+//     if (sum==2) {
+//         console.log('tub son');
 //     } else {
-//         console.log(`${a} tub emas`);
-//   }
+//         console.log('tub son emas');
+        
+//     }
 // }
 // tub(son);
 
