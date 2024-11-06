@@ -177,6 +177,17 @@
 // let res = functin(son1, son2)
 // console.log(res);
 
+//17-masala
+// let son = +prompt("son kiriting");
+// function kabisa(a) {
+//   if ((a % 4 === 0 && a % 100 !== 0) || a % 400 === 0) {
+//     console.log(`${a} kabisa oy`);
+//   } else {
+//     console.log(`${a} kabisa oy emas`);
+//   }
+// }
+// kabisa(son);
+
 //20-masala
 // let son = +prompt("son kiriting");
 // function tub(a) {
@@ -187,7 +198,6 @@
 //   }
 // }
 // tub(son);
-
 
 //21-masala
 // let son1 = +prompt("son kiriting");
@@ -218,7 +228,6 @@
 // let res=kar(son)
 // console.log(res);
 
-
 //24-masala
 // let son=+prompt('son kiriting')
 // let err=[
@@ -234,15 +243,9 @@
 //     for (let i = err; i <=a.length; i++) {
 //         if (i==b) {
 //             console.log('salom');
-            
+
 //         }
 //     }
 // }
 // let res=febinus(err,son)
 // console.log(res);
-
-
-
-
-
-
