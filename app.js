@@ -203,7 +203,7 @@
 //     for (let i = 1; i <=a; i++) {
 //         if (a%i==0) {
 //             sum++
-//         }        
+//         }
 //     }
 //     if (sum==2) {
 //         console.log('tub son');
@@ -264,6 +264,21 @@
 // }
 // let res=febinus(err,son)
 // console.log(res);
+
+
+
+//1-misol
+function createMaxElement(num) {
+    let str = String(num)
+    let arr=str.split('').sort(function (a,b) {
+        return b-a
+    })
+    return Number(str.join(''))
+}
+
+console.log(createMaxElement(12345678));
+
+
 
 //3-misol
 // let son = prompt('son kiriting')
