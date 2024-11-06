@@ -273,7 +273,7 @@ function createMaxElement(num) {
     let arr=str.split('').sort(function (a,b) {
         return b-a
     })
-    return Number(str.join(''))
+    return Number(arr.join(''))
 }
 
 console.log(createMaxElement(12345678));
